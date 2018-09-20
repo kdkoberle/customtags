@@ -1,0 +1,15 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Custom Tags</short-name>
+    <uri>http://keithkoberle.com/tags</uri>
+    <tag>
+
+        <!-- name defines the tag that will be used in jsps to call your tag code -->
+        <name>Hello</name>
+        <!-- hint look under java or test directory for full name -->
+        <tag-class>com.keithkoberle.custom.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+</taglib>
